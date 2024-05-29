@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000; /* Set background color to black */
+    color: #FFFF00; /* Set text color to yellow */
+}
+
+.container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+#title-image {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Hide the actual file input */
+input[type="file"] {
+    display: none;
+}
+
+/* Style the custom file upload label */
+.custom-file-upload {
+    background-color: #FFFF00; /* Set background color to yellow */
+    color: #000000; /* Set text color to black */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+select {
+    color: #FFFF00; /* Set select text color to yellow */
+    background-color: #000000; /* Set select background color to black */
+    border: 1px solid #FFFF00; /* Set border color to yellow */
+}
+
+button {
+    background-color: #FFFF00; /* Set button background color to yellow */
+    color: #000000; /* Set button text color to black */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFD700; /* Slightly darker yellow for hover effect */
+}
+
+canvas {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Style the footer */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}

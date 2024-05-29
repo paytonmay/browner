@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hashbrown Meme Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="title.png" alt="Title Image" id="title-image">
+        <label for="upload" class="custom-file-upload">
+            Choose File
+        </label>
+        <input type="file" id="upload" accept="image/*">
+        <select id="overlay">
+            <option value="plain">Plain</option>
+            <option value="smothered">Smothered</option>
+            <option value="covered">Covered</option>
+            <option value="peppered">Peppered</option>
+            <option value="chunked">Chunked</option>
+            <option value="capped">Capped</option>
+            <option value="topped">Topped</option>
+            <option value="county">County</option>
+            <option value="allTheWay">All the Way</option>
+        </select>
+        <select id="blendMode">
+            <option value="normal">Normal</option>
+            <option value="multiply">Multiply</option>
+            <option value="screen">Screen</option>
+            <option value="overlay">Overlay</option>
+            <option value="darken">Darken</option>
+            <option value="lighten">Lighten</option>
+            <option value="color-dodge">Color Dodge</option>
+            <option value="color-burn">Color Burn</option>
+            <option value="hard-light">Hard Light</option>
+            <option value="soft-light">Soft Light</option>
+            <option value="difference">Difference</option>
+            <option value="exclusion">Exclusion</option>
+        </select>
+        <button id="apply">Apply</button>
+        <canvas id="canvas"></canvas>
+        <button id="download">Download</button>
+    </div>
+    <footer>
+        &copy; WAFFHOUZ LLC
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
